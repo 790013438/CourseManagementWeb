@@ -11,7 +11,7 @@ import snippets.ejb.CourseBeanRemote;
 @ManagedBean(name="Course")
 public class CourseJSFBean {
     @EJB
-    CourseBeanRemote courseBean;
+    CourseBean courseBean;
 
     public List<CourseDTO> getCourses() {
         return courseBean.getCourses();
