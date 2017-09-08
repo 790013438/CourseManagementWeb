@@ -6,7 +6,7 @@ import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 
 import snippets.dto.CourseDTO;
-import snippets.ejb.CourseBeanRemote;
+import snippets.ejb.CourseBean;
 
 @ManagedBean(name="Course")
 public class CourseJSFBean {
